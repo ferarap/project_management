@@ -1,2 +1,10 @@
-h1 Hello Pablo!!!
-outlet
+header
+  article
+    .logo
+      h1
+        a href="#" Project Management
+
+section#main
+  = outlet
+
+footer
