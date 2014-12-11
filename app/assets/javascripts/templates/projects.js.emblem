@@ -1,0 +1,5 @@
+article#projects
+  h1 Projects
+  ul
+    each project in controller
+      li= project.name
